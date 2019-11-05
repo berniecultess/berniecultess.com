@@ -3,14 +3,20 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModule } from './material/material.module';
+// import { SliderComponent } from './slider/slider.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    // SliderComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MaterialModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
