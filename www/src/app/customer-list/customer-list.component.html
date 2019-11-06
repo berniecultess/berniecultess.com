@@ -1,0 +1,7 @@
+<div class="mat-elevation-z8">
+    <!-- Content here-->
+    <mat-spinner [style.display]="loading ? 'block' : 'none'"></mat-spinner>
+    <mat-table [style.display]="loading === false ? 'block' : 'none'" #table [dataSource]="dataSource">
+        <!-- Table Content Here -->
+    </mat-table>
+</div>>

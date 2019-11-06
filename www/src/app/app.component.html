@@ -1,18 +1,10 @@
 <header>
   <nav>
-    <mat-toolbar color="primary" class="fixed-header">
-      <mat-toolbar-row>
-        <img src="./assets/images/BC_logo.png" class="logo">
-
-        <a mat-button routerLink="/customer-list" routerLinkActive="active">Customers</a>
-        <a mat-button routerLink="/customer-create">Create Customer</a>
-        <a mat-button routerLink="/login">Login</a>
-      </mat-toolbar-row>
-    </mat-toolbar>
+    <app-top-bar></app-top-bar>
   </nav>
 </header>
 <section>
-  <h1>Bernie</h1>
+  <!-- <h1>Bernie</h1>
   <h2>Bernie</h2>
   <h3>Bernie</h3>
   <h4>Bernie</h4>
@@ -21,9 +13,10 @@
   <p>Slider Here - App Component</p>
   <mat-slider min="1" max="100" step="1" value="1"></mat-slider>
 
-  <!-- <app-slider></app-slider> -->
-
+  <app-slider></app-slider> -->
+  <router-outlet></router-outlet>
 </section>
+
 <footer>
   Footer
 </footer>
