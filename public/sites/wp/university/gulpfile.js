@@ -70,7 +70,7 @@ gulp.task(
     "waitForStyles",
     gulp.series("styles", function() {
         return gulp
-            .src(settings.themeLocation + "styless.css")
+            .src(settings.themeLocation + "style.css")
             .pipe(browserSync.stream());
     })
 );
