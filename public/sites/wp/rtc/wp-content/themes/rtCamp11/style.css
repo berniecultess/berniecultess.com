@@ -1,0 +1,361 @@
+/* 
+Theme Name: rtCamp11
+Theme URI: http://rtCamp.berniecultess.com
+Description: rtCamp11 Simple Theme on Bootstrap
+Version 1.0
+Author: Bernie Cultess
+Author URI: https://berniecultess.github.io
+*/
+
+html,
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+/* -0 : 0 */
+/* -1 : .25rem : 3.5px */
+/* -2 : .5rem : 7px */
+/* -2_5 : .714rem : 10px */
+.pb-2_5,
+.py-2_5 {
+    padding-bottom: 0.7145rem !important;
+}
+.pt-2_5,
+.py-2_5 {
+    padding-top: 0.7145rem !important;
+}
+.p-2_5 {
+    padding: 0.7145rem !important;
+}
+.mb-2_5,
+.my-2_5 {
+    margin-bottom: 0.7145rem !important;
+}
+.mt-2_5,
+.my-2_5 {
+    margin-top: 0.7145rem !important;
+}
+/* -3 : 1rem : 14px */
+/* -3_1 : 1.07142rem : 15px */
+.pb-3_1,
+.py-3_1 {
+    padding-bottom: 1.07142rem !important;
+}
+.pt-3_1,
+.py-3_1 {
+    padding-top: 1.07142rem !important;
+}
+.mb-3_1,
+.my-3_1 {
+    margin-bottom: 1.07142rem !important;
+}
+.mt-3_1,
+.my-3_1 {
+    margin-top: 1.07142rem !important;
+}
+
+/* -3_9 : 1.42857rem : 20px */
+.pb-3_9,
+.py-3_9 {
+    padding-bottom: 1.42857rem !important;
+}
+.pt-3_9,
+.py-3_9 {
+    padding-top: 1.42857rem !important;
+}
+.mb-3_9,
+.my-3_9 {
+    margin-bottom: 1.42857rem !important;
+}
+.mt-3_9,
+.my-3_9 {
+    margin-top: 1.42857rem !important;
+}
+.p-3_9 {
+    padding: 1.42857rem !important;
+}
+/* -4 : 1.5rem : 21px */
+/* -4_2 : 2.143rem : 30px */
+.pb-4_2,
+.py-4_2 {
+    padding-bottom: 2.143rem !important;
+}
+.pt-4_2,
+.py-4_2 {
+    padding-top: 2.143rem !important;
+}
+.mb-4_2,
+.my-4_2 {
+    margin-bottom: 2.143rem !important;
+}
+.mt-4_2,
+.my-4_2 {
+    margin-top: 2.143rem !important;
+}
+/* -4_4 : 2.429rem : 34px */
+.pl-4_4,
+.px-4_4 {
+    padding-left: 2.429rem !important;
+}
+.pr-4_4,
+.px-4_4 {
+    padding-right: 2.429rem !important;
+}
+/* -5 : 3rem : 42px */
+.w-10 {
+    width: 10% !important;
+}
+.w-90 {
+    width: 90% !important;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.h3,
+h3 {
+    font-size: 1.7143rem;
+}
+.h6,
+h6 {
+    font-size: 1.07143rem;
+}
+footer .h1,
+footer .h2,
+footer .h3,
+footer .h4,
+footer .h5,
+footer .h6,
+footer h1,
+footer h2,
+footer h3,
+footer h4,
+footer h5,
+footer h6 {
+    font-family: Tahoma, Geneva, sans-serif;
+    text-transform: uppercase;
+    color: #888;
+    font-weight: 700;
+}
+p {
+    font-size: 0.92857rem;
+}
+p.slideshow {
+    font-size: 1rem;
+}
+.bg-dkGrayBlue {
+    background-color: #949599;
+}
+.bg-gray-92 {
+    background-color: #ebebeb;
+}
+.bg-veryLtGray {
+    background-color: #f8f8f8;
+}
+.text-body-black {
+    color: #000;
+}
+.text-body-gray-20 {
+    color: #333;
+}
+.text-body-gray-80 {
+    color: #ccc;
+}
+a.nav-link-header {
+    color: #333;
+    font-size: 1.07rem;
+}
+a.nav-link-footer {
+    color: #666;
+    font-size: 0.929rem;
+}
+a.nav-link-header:hover,
+a.nav-link-header.active,
+a.nav-link-footer:hover {
+    color: #993408;
+}
+img {
+    width: 100%;
+}
+.h-115 {
+    height: 115px;
+}
+.list-group-item:first-child {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.list-group-item:last-child {
+    margin-bottom: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.list-group-item {
+    /* position: relative;
+    display: block;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: -1px; */
+    background-color: transparent;
+    border: 0;
+}
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: transparent;
+    border-color: transparent;
+    background-image: url("../../../wp-content/uploads/2019/12/post-hover-bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.list-group .list-group-item a {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.2143rem;
+    color: #993408;
+    text-transform: uppercase;
+}
+.list-group .list-group-item.active a {
+    color: #ebebeb;
+    /* background-color: #993408; */
+}
+.list-group .list-group-item a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.border-gray-80 {
+    border-color: #ccc !important;
+}
+.border-bottom-dashed {
+    border-bottom-style: dashed !important;
+    border-bottom-color: #888 !important;
+}
+.slider li {
+    background: url("../../../wp-content/uploads/2019/12/slider-pages.png")
+        no-repeat -38px 0px;
+    width: 11px;
+    height: 11px;
+    margin-bottom: 9px;
+}
+.slider li.active {
+    background: url("../../../wp-content/uploads/2019/12/slider-pages.png")
+        no-repeat -1px 0px;
+}
+.slider li:last-child {
+    margin-bottom: 0;
+}
+ul.slider li,
+footer ul li {
+    position: relative;
+    display: block;
+}
+footer ul li a,
+footer .copyright {
+    font-size: 0.9286rem;
+}
+footer ul li a {
+    color: #888;
+}
+footer ul li a:hover {
+    color: #993408;
+    text-decoration: none;
+}
+footer .logo img {
+    width: auto;
+    height: 60px;
+}
+footer .copyright {
+    color: #999;
+}
+ul.footer-latest-news li {
+    background: url("../../../wp-content/uploads/2019/12/footer-bullet.jpg")
+        no-repeat 0 9px;
+    padding-left: 17px;
+}
+ul.footer-latest-news li:hover {
+    background: url("../../../wp-content/uploads/2019/12/footer-bullethover.jpg")
+        no-repeat 0 9px;
+}
+.footer-recent-projects .img1,
+.footer-recent-projects .img2,
+.footer-recent-projects .img3 {
+    width: auto;
+}
+.footer-recent-projects .img1 {
+    height: 41px;
+}
+.footer-recent-projects .img2 {
+    height: 42px;
+}
+.footer-recent-projects .img3 {
+    height: 29px;
+}
+ul.footer-s-i-t li {
+    width: 24px;
+    height: 24px;
+    padding-left: 34px;
+}
+ul.footer-s-i-t li a {
+    color: #a8a8a8;
+}
+ul.footer-s-i-t li a:hover,
+ul.footer-s-i-t li a:active {
+    text-decoration: none;
+}
+.footer-s-i-t .facebook {
+    background: url(../../../wp-content/uploads/2019/12/social-icons.jpg)
+        no-repeat 0 -116px;
+}
+.footer-s-i-t .facebook a:hover,
+.footer-s-i-t .facebook a:active {
+    color: #445e99;
+}
+.footer-s-i-t .twitter {
+    background: url("../../../wp-content/uploads/2019/12/social-icons.jpg")
+        no-repeat 0 -145px;
+}
+.footer-s-i-t .twitter a:hover,
+.footer-s-i-t .twitter a:active {
+    color: #35ccff;
+}
+.footer-s-i-t .linkedin {
+    background: url("../../../wp-content/uploads/2019/12/social-icons.jpg")
+        no-repeat 0 -174px;
+}
+.footer-s-i-t .linkedin a:hover,
+.footer-s-i-t .linkedin a:active {
+    color: #006da0;
+}
+.footer-s-i-t .rss {
+    background: url("../../../wp-content/uploads/2019/12/social-icons.jpg")
+        no-repeat 0 -203px;
+}
+.footer-s-i-t .rss a:hover,
+.footer-s-i-t .rss a:active {
+    color: #ff9900;
+}
+.footer-s-i-t .facebook:hover {
+    background: url("../../../wp-content/uploads/2019/12/social-icons.jpg")
+        no-repeat 0 0px;
+}
+.footer-s-i-t .twitter:hover {
+    background: url("../../../wp-content/uploads/2019/12/social-icons.jpg")
+        no-repeat 0 -29px;
+}
+.footer-s-i-t .linkedin:hover {
+    background: url("../../../wp-content/uploads/2019/12/social-icons.jpg")
+        no-repeat 0 -58px;
+}
+.footer-s-i-t .rss:hover {
+    background: url("../../../wp-content/uploads/2019/12/social-icons.jpg")
+        no-repeat 0 -87px;
+}
