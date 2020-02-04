@@ -10,6 +10,7 @@ var gulp = require("gulp"),
     cssImport = require("postcss-import"),
     mixins = require("postcss-mixins"),
     colorFunctions = require("postcss-color-function");
+// open = require("gulp-open");
 
 gulp.task("styles", function() {
     console.log("settings theme location", settings.themeLocation);
@@ -28,6 +29,7 @@ gulp.task("styles", function() {
         )
         .on("error", error => console.log(error.toString()))
         .pipe(gulp.dest(settings.themeLocation));
+    // .pipe(gulp.open({ app: "/Applications/Google Chrome.app" }));
 });
 
 gulp.task("scripts", function(callback) {
@@ -52,10 +54,12 @@ gulp.task("watch", function(done) {
         browserSync.reload();
         done();
     });
+
     gulp.watch(
         settings.themeLocation + "css/**/*.css",
         gulp.parallel("waitForStyles")
     );
+
     gulp.watch(
         [
             settings.themeLocation + "js/modules/*.js",
