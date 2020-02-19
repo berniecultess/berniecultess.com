@@ -60,12 +60,12 @@
             <div class="container">
                 <div class="p-2_5 bg-white">
                     <div class="row mx-0">
-                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <!-- <div id="carouselExampleIndicators" class="carousel slide bg-dark" data-ride="carousel">
                             <ol class="carousel-indicators">
                                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                            </ol>
+                              </ol>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <img class="d-block w-100" src="./wp-content/uploads/2019/12/Slider_img_1.png"
@@ -80,18 +80,18 @@
                                         alt="Third slide">
                                 </div>
                             </div>
-                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                            <a class="carousel-control-prev bg-danger" href="#carouselExampleIndicators" role="button"
                                 data-slide="prev">
                                 <img src="./wp-content/uploads/2019/12/slider-top-pagination.png" />
                                 <span class="sr-only">Previous</span>
                             </a>
-                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                            <a class="carousel-control-next bg-success" href="#carouselExampleIndicators" role="button"
                                 data-slide="next">
                                 <img src="./wp-content/uploads/2019/12/slider-bottom-pagination.png" />
                                 <span class="sr-only">Next</span>
                             </a>
-                        </div>
-                        <!-- <div class="col-md-12"
+                        </div> -->
+                        <div class="col-md-12"
                             style="background:url('./wp-content/uploads/2019/12/Slider_img.jpg') no-repeat center left">
                             <div class="row">
                                 <div class="col-md-4 -pr-0 ml-auto">
@@ -108,23 +108,30 @@
                                         <div class="w-10 border-left py-2_5 px-2 d-flex align-items-start flex-column"
                                             style="background:rgba(0,0,0,0.7);">
                                             <div class="">
-                                                <img src="./wp-content/uploads/2019/12/slider-top-pagination.png" />
+                                                <a class="" href="#carouselExampleIndicators" role="button"
+                                                    data-slide="prev"><img
+                                                        src="./wp-content/uploads/2019/12/slider-top-pagination.png" /></a>
                                             </div>
                                             <div class="my-auto ml-1">
                                                 <ul class="slider pl-0">
-                                                    <li data-slide-to="0" class="active"></li>
-                                                    <li data-slide-to="1" class=""></li>
-                                                    <li data-slide-to="2" class=""></li>
+                                                    <li data-target="#carouselExampleIndicators" data-slide-to="0"
+                                                        class="active"></li>
+                                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"
+                                                        class=""></li>
+                                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"
+                                                        class=""></li>
                                                 </ul>
                                             </div>
                                             <div class="">
-                                                <img src="./wp-content/uploads/2019/12/slider-bottom-pagination.png" />
+                                                <a class="" href="#carouselExampleIndicators" role="button"
+                                                    data-slide="next"><img
+                                                        src="./wp-content/uploads/2019/12/slider-bottom-pagination.png" /></a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
             </div>
