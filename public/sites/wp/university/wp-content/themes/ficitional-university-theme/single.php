@@ -1,4 +1,6 @@
 <?php
+    /* Controls individual blog posts */
+
     get_header();
 
     while(have_posts()) {

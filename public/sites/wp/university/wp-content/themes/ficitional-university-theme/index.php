@@ -1,9 +1,12 @@
-<?php get_header();
+<?php 
 
-        pageBanner(array(
-            'title' => 'Welcome to our Blog',
-            'subtitle' => 'Welcome to our blog'
-        ));
+    /* Controls the home of the blog section */
+    get_header();
+
+    pageBanner(array(
+        'title' => 'Welcome to our Blog',
+        'subtitle' => 'Welcome to our blog'
+    ));
 ?>
 <div class="container container--narrow page-section">
     <?php
