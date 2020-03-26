@@ -29,7 +29,7 @@
                               <li><a href="<?php echo site_url('/programs'); ?>">Programs</a></li>
                               <li><a href="<?php echo get_post_type_archive_link('program'); ?>">Programs</li>
                               <li><a href="<?php echo get_post_type_archive_link('event'); ?>">Events</a></li>
-                              <li><a href="#">Campuses</a></li>
+                              <li><a href="<?php echo get_post_type_archive_link('campus'); ?>">Campuses</a></li>
                           </ul>
                       </nav>
                   </div>

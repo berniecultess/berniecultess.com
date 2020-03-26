@@ -2,6 +2,7 @@
 
 function University_Post_types()
 {
+    // Event
     register_post_type(
         'event', array(
             'supports' => array(
@@ -23,6 +24,7 @@ function University_Post_types()
         )
     );
 
+    // Program
     register_post_type( 
         'program', array(
             'supports' => array(
@@ -44,10 +46,11 @@ function University_Post_types()
         )
     );
 
+    // Professor
     register_post_type( 
         'professor', array(
             'supports' => array(
-                'title', 'editor', 'excerpt', 'thumbnail'
+                'title', 'editor', 'thumbnail'
             ),
             'public' => true,
             'labels' => array(
@@ -61,6 +64,7 @@ function University_Post_types()
         )
     );
 
+    // Campus
     register_post_type( 
         'campus', array(
             'supports' => array(
@@ -78,7 +82,7 @@ function University_Post_types()
             'all_items' => 'All Campuses',
             'singular_name' => 'Campus'
             ),
-            'menu_icon' => 'dashicons-admin-multisite'
+            'menu_icon' => 'dashicons-location-alt'
         )
     );
 }
